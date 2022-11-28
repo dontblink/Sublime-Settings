@@ -1,0 +1,132 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "ayu-mirage.sublime-color-scheme",
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".vscode"
+	],
+	"font_face": "Cascadia Code",
+	"font_options":
+	[
+		"dlig",
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 10,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"MarkdownLivePreview",
+		"Vintage",
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"indent_to_bracket": true,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": false,
+	"theme": "Material-Theme.sublime-theme",
+	"auto_complete_commit_on_tab": true,
+	"update_check": false,
+	/*"gn_hide_tab_dropdown": true,*/
+	/*"gn_overlay_scroll_bars": true,*/
+	/*"gn_sidebar_box": true,*/
+	/*"gn_title_bar": true,*/
+	/*"gnc_h00": true,*/
+	/*"gnc_m05": true,*/
+	/*"gnc_w5m11": true,*/
+	/*"gnwidg1": true,*/
+	/*"gnwidgo": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_002": false,*/
+	/*"gnc_m07": true,*/
+	/*"gnc_m09": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_h00": true,*/
+	/*"gnc_m08": true,*/
+	/*"gnc_w5m12": true,*/
+	"hardware_acceleration": true,
+	"show_line_column": "enabled",
+	"draw_centered": false,
+	"highlight_line": true,
+	/*"material_theme_accent_scrollbars": true,*/
+	/*"material_theme_accent_titlebar": true,*/
+	"material_theme_bright_scrollbars": true,
+	"material_theme_compact_panel": true,
+	/*"material_theme_small_statusbar": true,*/
+	/*"material_theme_titlebar": true,*/
+	/*"material_theme_panel_separator": true,*/
+	/*"material_theme_compact_sidebar": true,*/
+	/*"material_theme_tree_headings": true,*/
+	// Set small tabs
+  	"material_theme_small_tab": true,
+	/*"material_theme_accent_cyan": true,*/
+	/*"material_theme_accent_cyan": true,*/
+	/*"material_theme_accent_indigo": true,*/
+	/*"material_theme_accent_bright-teal": true,*/
+	/*"material_theme_accent_cyan": true,*/
+	/*"material_theme_accent_scrollbars": true,*/
+	"material_theme_accent_scrollbars": true,
+	"material_theme_accent_titlebar": true,
+	/*"material_theme_panel_separator": true,*/
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	/*"material_theme_titlebar": true,*/
+	/*"material_theme_titlebar": true,*/
+	"material_theme_titlebar": true,
+	/*"material_theme_compact_sidebar": true,*/
+	/*"material_theme_compact_sidebar": true,*/
+	/*"material_theme_disable_fileicons": true,*/
+	/*"material_theme_disable_tree_indicator": true,*/
+	/*"material_theme_disable_tree_indicator": true,*/
+	"material_theme_tree_headings": true,
+	/*"material_theme_big_fileicons": true,*/
+	"material_theme_arrow_folders": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_tabs_autowidth": true,
+	/*"material_theme_tabs_separator": true,*/
+	/*"material_theme_bold_tab": true,*/
+	/*"material_theme_tabs_separator": true,*/
+	"material_theme_tabs_separator": true,
+	/*"material_theme_accent_cyan": true,*/
+	/*"material_theme_accent_bright-teal": true,*/
+	/*"material_theme_accent_brba": true,*/
+	/*"material_theme_accent_blue": true,*/
+	/*"material_theme_accent_acid-lime": true,*/
+	/*"material_theme_accent_indigo": true,*/
+	/*"material_theme_accent_graphite": true,*/
+	/*"material_theme_accent_cyan": true,*/
+	"material_theme_accent_sky": true,
+}

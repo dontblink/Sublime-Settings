@@ -1,0 +1,17 @@
+{
+	"shell_cmd": "cd Release && cmake -G \"Unix Makefiles\" -DCMAKE_BUILD_TYPE=Release .. && cd \"../Debug\" && cmake -G \"Unix Makefiles\" -DCMAKE_BUILD_TYPE=Debug ..",
+	"file_regex": "/([^/:]+):(\\d+):(\\d+): ",
+	//"working_dir": "${project_path:${folder:${file_path}}}",
+	"variants":
+	[
+		{
+			"name": "clean",
+			"shell_cmd": "rmdir /s/q Release && rmdir /s/q Debug && mkdir Release && mkdir Debug"
+		},
+		
+		{
+			"name": "new sublime build",
+			"shell_cmd": "cd Release && cmake -G \"Sublime Text 2 - Unix Makefiles\" -DCMAKE_BUILD_TYPE=Release .. && cd \"../Debug\" && cmake -G \"Sublime Text 2 - Unix Makefiles\" -DCMAKE_BUILD_TYPE=Debug .."
+		}
+	]
+}

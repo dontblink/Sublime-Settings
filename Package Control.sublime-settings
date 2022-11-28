@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ARM Assembly",
+		"ayu",
+		"BracketHighlighter",
+		"C Improved",
+		"Clang Format",
+		"CMake",
+		"Dockerfile Syntax Highlighting",
+		"EasyClangComplete",
+		"Git blame",
+		"Glue",
+		"MarkdownPreview",
+		"Material Theme",
+		"More Layouts",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"SublimeGDB",
+		"Terminal",
+		"Terminus",
+		"TodoReview",
+		"View Bookmarks",
+	],
+}
