@@ -1,0 +1,37 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+	},
+	"globals":
+	{
+	},
+	"rules":
+	[
+		{
+            "scope": "meta.semantic-token",
+            "background": "#00000101"
+        },
+		{
+			"name": "enum",
+			"scope": "meta.semantic-token.enum",
+			"foreground": "var(green)"
+		},
+		{
+			"name": "enummember",
+			"scope": "meta.semantic-token.enummember",
+			"foreground": "var(green)"
+		},
+		{
+			"name": "struct",
+			"scope": "meta.semantic-token.struct",
+			"foreground": "var(red)",
+		},
+        {
+            "name": "Entity name",
+            "scope": "entity.name.function",
+            "foreground": "var(blue5)",
+            "font_style": "italic",
+        },
+	]
+}

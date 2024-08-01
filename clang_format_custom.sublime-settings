@@ -13,7 +13,8 @@
     //     Mozilla 
     //     WebKit 
     "BasedOnStyle": "Webkit",
-    
+    "format_on_save": true,
+    "languages": ["C", "C++", "C++11", "JavaScript", "Objective-C", "Objective-C++"],
     // The extra indent or outdent of access modifiers, e.g. "public":.    
 //  "AccessModifierOffset": 2,
 
@@ -36,7 +37,7 @@
     // open bracket, if the parameters don’t fit on a single line, e.g.:
     // someLongFunction(
     //     argument1, argument2);
-  "AlignAfterOpenBracket": "Align",
+    "AlignAfterOpenBracket": "Align",
 
     // If true, aligns consecutive assignments.
     // This will align the assignment operators of consecutive lines.
@@ -44,24 +45,24 @@
     //     int aaaa = 12;
     //     int b    = 23;
     //     int ccc  = 23;
-  "AlignConsecutiveAssignments": true,
+    "AlignConsecutiveAssignments": true,
 
     // If true, aligns consecutive declarations.
     // This will align the declaration names of consecutive lines. This will result in formattings like
     // int         aaaa = 12;
     // float       b = 23;
     // std::string ccc = 23;
- "AlignConsecutiveDeclarations": true,
- "AlignConsecutiveMacros": true,
+    "AlignConsecutiveDeclarations": true,
+    "AlignConsecutiveMacros": true,
     // If true, aligns escaped newlines as far left as possible. Otherwise puts
     // them into the right-most column.
 //  "AlignEscapedNewlinesLeft": true,
 
     // If true, horizontally align operands of binary and ternary expressions.
- "AlignOperands": true,   
+    "AlignOperands": true,   
 
     // If true, aligns trailing comments.
-  "AlignTrailingComments": true,
+    "AlignTrailingComments": true,
 
     // Allow putting all parameters of a function declaration onto the next line
     // even if BinPackParameters is false.
@@ -84,7 +85,7 @@
     //     inside a class.
     //     SFS_All    (in "configuration": All) Merge all functions fitting on a
     //     single line.
-  "AllowShortFunctionsOnASingleLine": "Empty",
+    "AllowShortFunctionsOnASingleLine": "Empty",
 
     // If true, if (a) return; can be put on a single line.
   // "AllowShortIfStatementsOnASingleLine": true,
@@ -114,11 +115,11 @@
 
     // If false, a function call’s arguments will either be all on the same line
     // or will have one line each.
-  "BinPackArguments": true,
+    "BinPackArguments": true,
 
     // If false, a function call’s or function definition’s parameters will
     // either all be on the same line or will have one line each.
-  "BinPackParameters": false,
+    "BinPackParameters": false,
 
     // Control of individual brace wrapping cases.
     // If BreakBeforeBraces is set to custom, use this to specify how each 
@@ -149,7 +150,7 @@
        "AfterUnion":             true,
        "BeforeCatch":            true,
        "BeforeElse":             true,
-       //"IndentBraces":           true,
+       "IndentBraces":           false,
        "SplitEmptyFunction":     true,
        "SplitEmptyRecord":       true,
        "SplitEmptyNamespace":    true
@@ -182,7 +183,7 @@
     // BS_WebKit (in configuration: WebKit) Like Attach, but break before functions.
     // BS_Custom (in configuration: Custom) Configure each individual brace in 
     // BraceWrapping.
-  "BreakBeforeBraces": "Custom",
+    "BreakBeforeBraces": "Allman",
 
     // If true, ternary operators will be placed after line breaks.
 //  "BreakBeforeTernaryOperators": true,
@@ -408,6 +409,5 @@
     // (in "configuration": Always) Use tabs whenever we need to fill whitespace
     // that spans at least from one tab stop to the next one.
 //  "UseTab": "Never"
-    "format_on_save": true,
-    "languages": ["C", "C++", "C++11", "JavaScript", "Objective-C", "Objective-C++"]
+
 }
